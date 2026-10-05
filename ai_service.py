@@ -1,6 +1,6 @@
 import os, json, time
 
-MODEL_DEFAULT = "gemini-3.8-flash"
+MODEL_DEFAULT = "gemini-3.6-flash"
 
 def _client():
     key = os.getenv("GEMINI_API_KEY", "").strip()
